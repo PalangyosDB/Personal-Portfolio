@@ -1,0 +1,132 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==================== HEADER / HERO ==================== -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="name">Palangyos, Dustin B.</h1>
+      <p class="title">Aspiring Web Developer • Gamer</p>
+      <div class="social-links">
+        <a href="https://github.com/lanc456-inc" target="_blank">GitHub</a>
+        <a href="inglade.estrada3@gmail.com" target="_blank">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main class="container">
+
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate self-taught developer from Baguio currently focused on 
+        building clean, responsive, and user-friendly web applications. 
+        I enjoy turning ideas into interactive experiences using modern web technologies.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+        <div class="timeline-item">
+          <div>2022 – Present</div>
+            <h3>Bachelor of Science in Web Technology</h3>
+            <p class="institution">University of the Cordilleras</p>
+          </div>
+        </div>
+        <!-- Add more education entries here -->
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience</h2>
+          <div>Jun 2024 – Aug 2024</div>
+            <h3>Web Development Intern</h3>
+            <p class="institution">Local Startup / Freelance Project</p>
+            <ul>
+              <li>Developed responsive landing pages using HTML, CSS, JavaScript</li>
+              <li>Collaborated with designer to implement UI designs</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Add more experience entries -->
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3 / SCSS</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Others</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>Figma</li>
+            <li>VS Code</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p class="tech">HTML • CSS • Vanilla JavaScript</p>
+          <p>You're looking at it right now! 😄</p>
+          <div class="project-links">
+            <a href="#" class="btn">Live Demo</a>
+            <a href="#" class="btn-outline">Source Code</a>
+          </div>
+        </div>
+
+        <!-- Add 2–4 more project cards here -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>I'm currently looking for junior opportunities and open to connect!</p>
+      
+      <form id="contact-form" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required/>
+        <input type="email" name="email" placeholder="Your Email" required/>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Inglade Lance Nidoy • Made with ❤️ in Baguio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
